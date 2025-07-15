@@ -1,5 +1,16 @@
 html {
     background-image: url('skyrim_background.jpg');
+    filter: blur(5px);
+}
+
+.divBox {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  text-align: center; /* Center text horizontally */
+  border: 3px solid green;
 }
 
 p, h1 {
